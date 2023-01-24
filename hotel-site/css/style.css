@@ -41,6 +41,9 @@ p {
     cursor: pointer;
 }
 
+#clr {
+    clear: both;
+}
 .btn:hover {
     color: #333;
     background: rgba(202, 128, 18, 0.649) ;
@@ -50,7 +53,15 @@ p {
     background-color: #f4f4f4;
     color: #333;
 }
+ #bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+ }
 
+ #bg-primary {
+    background: rgba(255, 166, 0, 0.542);
+    color: #333;
+ }
 .bg-dark {
     background: #333;
     color: #fff;
@@ -149,4 +160,21 @@ padding-left: 10px;
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 20px;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: rgb(72, 64, 64);
+    color: #fff;
+    padding:10px;
 }
