@@ -24,7 +24,7 @@ p {
 }
 
 .text-primary {
-    color: rgba(202, 128, 18, 0.649);
+    color: rgba(2, 241, 214, 0.885);
 }
 
 .lead{
@@ -41,12 +41,13 @@ p {
     cursor: pointer;
 }
 
+
 #clr {
     clear: both;
 }
 .btn:hover {
-    color: #333;
-    background: rgba(202, 128, 18, 0.649) ;
+    color: rgb(9, 9, 9);
+    background: rgba(29, 79, 165, 0.878) ;
 }
 
 .btn-light {
@@ -58,8 +59,8 @@ p {
     color: #333;
  }
 
- #bg-primary {
-    background: rgba(255, 166, 0, 0.542);
+ .bg-primary {
+    background: rgba(2, 241, 214, 0.885);
     color: #333;
  }
 .bg-dark {
@@ -73,6 +74,8 @@ p {
     overflow: auto;
     padding:  0 20px;
 }
+
+
 #navbar {
     background-color: #333;
     color: #fff;
@@ -82,10 +85,10 @@ p {
     color: #fff;
 }
 #navbar h1 {
-
 float: left;
 padding-top: 20px;
 padding-left: 10px;
+color: #40199a;
 }
 
 #navbar ul{
@@ -105,8 +108,8 @@ padding-left: 10px;
 
 #navbar ul li a:hover ,
 #navbar ul li a.current {
-    background-color: aqua;
-    color: blue;
+    background-color: rgb(90, 97, 97);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -172,9 +175,59 @@ padding-left: 10px;
     margin-bottom: 20px;
 }
 
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+#about-info .info-left h1 {
+    font-size: 40px;
+}
+
 #main-footer {
     text-align: center;
     background-color: rgb(72, 64, 64);
     color: #fff;
     padding:10px;
+}
+
+#testimon {
+    height: 600px;
+    background: url('../img/test-bg.jpg') no-repeat
+    center center/cover;
+    padding-top: 40px;
+}
+#testimon h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+#testimon .testimonial {
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#testimon .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
 }
