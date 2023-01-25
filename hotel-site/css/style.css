@@ -36,7 +36,8 @@ p {
     font-size: 18px;
     color: #fff;
     background-color: #333;
-    padding: 13px 20px;
+    margin-top: 100px;
+    padding: 13px 10px;
     border: none;
     cursor: pointer;
 }
@@ -47,7 +48,7 @@ p {
 }
 .btn:hover {
     color: rgb(9, 9, 9);
-    background: rgba(29, 79, 165, 0.878) ;
+    background:  rgba(2, 241, 214, 0.885) ;
 }
 
 .btn-light {
@@ -230,4 +231,38 @@ color: #40199a;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+#contact-form .form-group {
+    margin-bottom: 5px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, 
+#contact-form textarea {
+
+    width: 90%;
+    position: center;
+    padding: 10px;
+    border: 1px #ddd solid;
+
+}
+#contact-form button{
+    margin-bottom: 20px;
+}
+
+#contact-form textarea{
+
+    height: 100px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+
+    outline: none;
+    border-color:  rgba(2, 241, 214, 0.885);
+    
 }
