@@ -87,6 +87,10 @@ img{
     padding: 0 20px;
    
 }
+/* #font-icon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+} */
 
 .hero .content h1 {
     font-size: 55px;
@@ -99,6 +103,11 @@ img{
 
  .hero * {
     z-index: 10;
+ }
+
+ .hero.blog {
+    background-image: url(../image/home/blog.jpg) no-repeat center center/cover;
+    height: 30vh;
  }
  .hero::before {
     content: '';
